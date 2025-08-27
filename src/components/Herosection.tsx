@@ -11,7 +11,7 @@ export default function Herosection() {
       {/* Hero Image */}
       <div className="flex justify-center md:justify-start z-10">
         <img
-          src="src/assets/hero-image.jpg"
+          src="/src/assets/hero-image.jpg"
           alt="Hero"
           className="w-80 md:w-96 h-auto rounded-xl shadow-2xl transform transition-transform duration-700 hover:scale-110 hover:rotate-3"
         />
