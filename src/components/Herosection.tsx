@@ -1,5 +1,6 @@
 import { FaGithub, FaEnvelope, FaLinkedin, FaFacebook } from "react-icons/fa";
 import FastWork from "../assets/fastwork.png";
+import img from "../assets/hero-image.jpg";
 
 export default function Herosection() {
   return (
@@ -11,7 +12,7 @@ export default function Herosection() {
       {/* Hero Image */}
       <div className="flex justify-center md:justify-start z-10">
         <img
-          src="/src/assets/hero-image.jpg"
+          src={img}
           alt="Hero"
           className="w-80 md:w-96 h-auto rounded-xl shadow-2xl transform transition-transform duration-700 hover:scale-110 hover:rotate-3"
         />
